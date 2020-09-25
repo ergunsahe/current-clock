@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #974e8d;
+   
+    
+}
+
+.container {
+    width: 600px;
+    height: 200px;
+    align-self:center;
+   display: flex;
+   position: relative;
+   top: 30vh;
+   left: 30%;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+   
+
+}
+
+.clock-cont {
+    color: white;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;          
+   
+}
+
+
+
+@media (max-width:1000px){
+    .container {
+       width: 400px;
+       height: 200px;
+       top: 30vh;
+       left: 0%;
+       flex-direction: column;
+       justify-content: center; 
+       align-items: center;
+       
+    
+    }
+    .clock-cont {
+        color: white;
+        font-size: 55px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;          
+       
+    }
+
+
+}
