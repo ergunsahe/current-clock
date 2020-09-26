@@ -4,6 +4,15 @@ function today (){
     var h = myDate.getHours() % 12 || 12;
     var m = myDate.getMinutes();
     var s = myDate.getSeconds();
+    if (h < 10){
+        h = `0${h}`;
+    }
+    if (m < 10) {
+        m = `0${m}`;
+    }
+    if (s < 10) {
+        s = `0${s}`;
+    }
     if (myDate.getHours() > 12) {
         var current= `${h}:${m}:${s}   PM`;
     } else {
